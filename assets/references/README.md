@@ -10,11 +10,11 @@ image below (the `download` attribute saves it on click).
 
 | File | Reference from |
 | --- | --- |
-| `yandex.jpg` | Yandex (English) |
-| `findguide.jpg` | FindGuide |
-| `fontanka.jpg` | Fontanka.ru |
-| `academic.jpg` | Academic faculty |
-| `copywriting.jpg` | Copywriting lead |
+| `yandex_reference_letter_scan.jpg` | Yandex (English) |
+| `findguide_reference_letter_scan.jpg` | FindGuide |
+| `fontanka_reference_letter_scan.jpg` | Fontanka.ru |
+| `academic_reference_letter_scan.jpg` | Academic faculty |
+| `copywriting_reference_letter_scan.jpg` | Copywriting lead |
 
 The images are medium-resolution (captured from the live site). To upgrade, drop in a
 higher-resolution scan using the **same filename** — no code change needed.
