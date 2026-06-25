@@ -1,23 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#faf7f2"/>
-      <stop offset="1" stop-color="#f3ece2"/>
+      <stop offset="0" stop-color="#fbf8f1"/>
+      <stop offset="1" stop-color="#fff8df"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.8" cy="0.2" r="0.6">
-      <stop offset="0" stop-color="#ff5b4a" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#ff5b4a" stop-opacity="0"/>
+    <radialGradient id="glowA" cx="0.85" cy="0.18" r="0.5">
+      <stop offset="0" stop-color="#fff1b5" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff1b5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.12" cy="0.9" r="0.5">
+      <stop offset="0" stop-color="#c1dbe8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#c1dbe8" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#glowA)"/>
+  <rect width="1200" height="630" fill="url(#glowB)"/>
   <text x="90" y="150" font-family="Inter, sans-serif" font-size="26" font-weight="600"
-    letter-spacing="6" fill="#e8412f">COMMUNICATIONS · MARKETING · COMMUNITY</text>
-  <text x="86" y="300" font-family="Georgia, serif" font-size="92" font-weight="600" fill="#1c1822">Margarita Aleeva</text>
-  <text x="90" y="392" font-family="Georgia, serif" font-size="52" font-style="italic" fill="#ff5b4a">Clear communication. Structured results.</text>
-  <text x="90" y="498" font-family="Inter, sans-serif" font-size="30" fill="#4a4452">3+ years across comms, marketing &amp; community management</text>
+    letter-spacing="6" fill="#5b89a0">COMMUNICATIONS · MARKETING · COMMUNITY</text>
+  <text x="86" y="300" font-family="Georgia, serif" font-size="92" font-weight="600" fill="#43302e">Margarita Aleeva</text>
+  <g>
+    <rect x="86" y="345" width="556" height="34" rx="6" fill="#fff1b5"/>
+    <text x="90" y="392" font-family="Georgia, serif" font-size="52" font-style="italic" fill="#43302e">Clear communication. Structured results.</text>
+  </g>
+  <text x="90" y="498" font-family="Inter, sans-serif" font-size="30" fill="#6f5852">3+ years across comms, marketing &amp; community management</text>
   <g transform="translate(86,540)">
-    <rect width="220" height="56" rx="28" fill="#ff5b4a"/>
-    <text x="110" y="36" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#ffffff">View work →</text>
+    <rect width="220" height="56" rx="28" fill="#43302e"/>
+    <text x="110" y="36" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#fff8df">View work →</text>
   </g>
 </svg>

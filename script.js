@@ -60,7 +60,7 @@
   }
 
   /* ---- Active nav link on scroll (scroll spy) ---- */
-  var sections = ["about", "expertise", "work", "references", "contact"]
+  var sections = ["about", "expertise", "work", "recommendations", "contact"]
     .map(function (id) { return document.getElementById(id); })
     .filter(Boolean);
   var navLinks = document.querySelectorAll(".nav-list a");
