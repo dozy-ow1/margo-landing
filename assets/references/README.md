@@ -1,23 +1,24 @@
 # Reference letters
 
-These PDFs are linked from the **Recommendations** section and the
-"Download all references" button on the landing page.
+These are the **real signed reference letters**, parsed from the
+[Recommendations page](https://sites.google.com/view/margaritaaleeva/projects-recommendations)
+of the portfolio. They power the **Recommendations** section on the landing page.
 
-The files here are **placeholders**. To make the downloads real:
+Each reference has two files:
 
-1. Replace each PDF below with the matching signed reference letter — **keep the
-   filename the same** so the links keep working.
-2. Update the matching `<blockquote>` excerpt in `index.html` (Recommendations
-   section) with a real quote from that letter.
+- `<name>.jpg` — the on-page document preview (shown in the card)
+- `<name>.pdf` — the downloadable letter (opens when the card is clicked)
 
-| File | Reference from |
+| Files | Reference from |
 | --- | --- |
-| `yandex-reference.pdf` | Yandex |
-| `findguide-reference.pdf` | FindGuide |
-| `fontanka-reference.pdf` | Fontanka.ru |
-| `academic-reference.pdf` | Academic faculty |
-| `copywriting-reference.pdf` | Copywriting lead |
-| `margarita-aleeva-references.pdf` | All letters combined (the "Download all" button) |
+| `yandex-en.*` | Yandex — English version |
+| `yandex-ru.*` | Yandex — original letterhead |
+| `findguide.*` | FindGuide |
+| `fontanka.*` | Fontanka.ru |
+| `academic.*` | Academic faculty |
+| `copywriting.*` | Copywriting lead |
 
-To add or remove a reference, edit the cards in the Recommendations section of
-`index.html` and update this folder to match.
+The images were captured from the live site, so they are medium-resolution. To
+upgrade, drop in a higher-resolution scan/PDF using the **same filename** — no code
+change needed. To add or remove a letter, edit the cards in the Recommendations
+section of `index.html`.

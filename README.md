@@ -13,8 +13,8 @@ and restructured into a focused "hire me" experience.
 - **Real project previews** — each work card shows a live thumbnail: first slides of the
   Google Slides decks, the JetBrains digest banner, YouTube poster frames (with a play
   badge), and the UNA magazine cover.
-- **Recommendations with downloads** — a ready-to-fill section where each reference has a
-  quote and a **Download letter (PDF)** button, plus a "Download all references" CTA.
+- **Real reference letters** — the six signed letters (Yandex ×2, FindGuide, Fontanka.ru,
+  academic, copywriter) are embedded as document previews, each opening the full PDF.
 - **Self-contained** — plain HTML/CSS/JS, no build step, no dependencies.
 - **Accessible & responsive** — skip link, keyboard focus styles, `prefers-reduced-motion`,
   scroll-spy nav, and a mobile menu.
@@ -46,9 +46,8 @@ folders are served as-is.)
 
 | What | Where |
 | --- | --- |
-| **Real photo** (replaces the `MA` monogram) | Save as `assets/margarita.jpg`, then uncomment the `<img>` in the hero `PHOTO SLOT` comment in `index.html`. |
-| **Recommendation quotes** | The excerpts in the Recommendations section are placeholders — replace each `<blockquote>` with a real quote. |
-| **Reference PDFs** | Replace the placeholder files in `assets/references/` with the signed letters (keep the filenames). See `assets/references/README.md`. |
+| **Photo** | Her real photo (`assets/margarita.jpg`) was captured from the live site. Drop in a higher-res version at the same path to upgrade it. |
+| **Reference letters** | Real signed letters live in `assets/references/` (`.jpg` previews + `.pdf` downloads). Replace any file with a higher-res scan using the same name. See `assets/references/README.md`. |
 | **Location line** | "Based in Germany" is inferred from the +49 number — edit in the Contact section if needed. |
 
 ## Files
