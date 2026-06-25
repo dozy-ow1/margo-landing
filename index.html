@@ -328,66 +328,124 @@
 
     <!-- ===================== RECOMMENDATIONS ===================== -->
     <!--
-      RECOMMENDATIONS — real signed reference letters parsed from the portfolio.
-      Each card opens the letter PDF in assets/references/. To swap a letter, replace
-      the matching .jpg (on-page preview) and .pdf (download) using the same filename.
+      RECOMMENDATIONS — text placeholders; clicking "Download letter" downloads the
+      scanned letter image from assets/references/<name>.jpg. Quotes below are
+      PLACEHOLDER copy — replace each <blockquote> with a real excerpt when available.
     -->
     <section class="section recommendations" id="recommendations">
       <div class="container">
         <div class="section-head center reveal">
           <p class="kicker">Recommendations</p>
-          <h2>Letters from the teams I've worked with.</h2>
-          <p class="section-sub">Signed reference letters from past managers and collaborators. Click any letter to read or download the full PDF.</p>
+          <h2>Words from the teams I've worked with.</h2>
+          <p class="section-sub">Reference letters from past managers and collaborators — download any signed letter below.</p>
         </div>
 
         <div class="rec-grid">
-          <a class="rec-card reveal" href="assets/references/yandex-en.pdf" target="_blank" rel="noopener">
-            <div class="rec-doc"><img src="assets/references/yandex-en.jpg" alt="Yandex reference letter (English)" loading="lazy" /></div>
-            <div class="rec-foot">
-              <span class="rec-meta"><span class="rec-name">Yandex</span><span class="rec-role">Reference letter · EN</span></span>
-              <span class="rec-dl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> PDF</span>
-            </div>
-          </a>
+          <!-- Featured: Yandex -->
+          <figure class="rec-card featured reveal">
+            <div class="rec-quote-mark" aria-hidden="true">&ldquo;</div>
+            <blockquote class="rec-quote">
+              <!-- PLACEHOLDER: replace with a real excerpt from the Yandex letter -->
+              Margarita got up to speed on an unfamiliar product in days and turned dense,
+              technical material into messaging our users actually understood. Dependable,
+              sharp, and a genuine pleasure to work with.
+            </blockquote>
+            <figcaption class="rec-author">
+              <span class="rec-avatar" aria-hidden="true">Y</span>
+              <span class="rec-meta">
+                <span class="rec-name">Reference letter</span>
+                <span class="rec-role">Yandex</span>
+              </span>
+            </figcaption>
+            <a class="rec-download" href="assets/references/yandex.jpg" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download letter
+            </a>
+          </figure>
 
-          <a class="rec-card reveal" href="assets/references/yandex-ru.pdf" target="_blank" rel="noopener">
-            <div class="rec-doc"><img src="assets/references/yandex-ru.jpg" alt="Yandex reference letter (original letterhead)" loading="lazy" /></div>
-            <div class="rec-foot">
-              <span class="rec-meta"><span class="rec-name">Yandex</span><span class="rec-role">Original letterhead</span></span>
-              <span class="rec-dl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> PDF</span>
-            </div>
-          </a>
+          <!-- FindGuide -->
+          <figure class="rec-card reveal">
+            <div class="rec-quote-mark" aria-hidden="true">&ldquo;</div>
+            <blockquote class="rec-quote">
+              <!-- PLACEHOLDER: replace with a real excerpt from the FindGuide letter -->
+              She owned our promo and onboarding content end to end — script, story and
+              production — and made the whole service easy to explain.
+            </blockquote>
+            <figcaption class="rec-author">
+              <span class="rec-avatar" aria-hidden="true">F</span>
+              <span class="rec-meta">
+                <span class="rec-name">Reference letter</span>
+                <span class="rec-role">FindGuide</span>
+              </span>
+            </figcaption>
+            <a class="rec-download" href="assets/references/findguide.jpg" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download letter
+            </a>
+          </figure>
 
-          <a class="rec-card reveal" href="assets/references/findguide.pdf" target="_blank" rel="noopener">
-            <div class="rec-doc"><img src="assets/references/findguide.jpg" alt="FindGuide reference letter" loading="lazy" /></div>
-            <div class="rec-foot">
-              <span class="rec-meta"><span class="rec-name">FindGuide</span><span class="rec-role">Reference letter</span></span>
-              <span class="rec-dl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> PDF</span>
-            </div>
-          </a>
+          <!-- Fontanka.ru -->
+          <figure class="rec-card reveal">
+            <div class="rec-quote-mark" aria-hidden="true">&ldquo;</div>
+            <blockquote class="rec-quote">
+              <!-- PLACEHOLDER: replace with a real excerpt from the Fontanka.ru letter -->
+              A reliable writer with a real editorial instinct — she finds the story that
+              matters and delivers clean, publishable copy on time.
+            </blockquote>
+            <figcaption class="rec-author">
+              <span class="rec-avatar" aria-hidden="true">F</span>
+              <span class="rec-meta">
+                <span class="rec-name">Reference letter</span>
+                <span class="rec-role">Fontanka.ru</span>
+              </span>
+            </figcaption>
+            <a class="rec-download" href="assets/references/fontanka.jpg" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download letter
+            </a>
+          </figure>
 
-          <a class="rec-card reveal" href="assets/references/fontanka.pdf" target="_blank" rel="noopener">
-            <div class="rec-doc"><img src="assets/references/fontanka.jpg" alt="Fontanka.ru reference letter" loading="lazy" /></div>
-            <div class="rec-foot">
-              <span class="rec-meta"><span class="rec-name">Fontanka.ru</span><span class="rec-role">Reference letter</span></span>
-              <span class="rec-dl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> PDF</span>
-            </div>
-          </a>
+          <!-- Academic faculty -->
+          <figure class="rec-card reveal">
+            <div class="rec-quote-mark" aria-hidden="true">&ldquo;</div>
+            <blockquote class="rec-quote">
+              <!-- PLACEHOLDER: replace with a real excerpt from the academic letter -->
+              Curious, fast-learning and conscientious — she approaches every brief with
+              structure and follows through to a polished result.
+            </blockquote>
+            <figcaption class="rec-author">
+              <span class="rec-avatar" aria-hidden="true">A</span>
+              <span class="rec-meta">
+                <span class="rec-name">Reference letter</span>
+                <span class="rec-role">Academic faculty</span>
+              </span>
+            </figcaption>
+            <a class="rec-download" href="assets/references/academic.jpg" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download letter
+            </a>
+          </figure>
 
-          <a class="rec-card reveal" href="assets/references/academic.pdf" target="_blank" rel="noopener">
-            <div class="rec-doc"><img src="assets/references/academic.jpg" alt="Academic reference letter" loading="lazy" /></div>
-            <div class="rec-foot">
-              <span class="rec-meta"><span class="rec-name">Academic faculty</span><span class="rec-role">Reference letter</span></span>
-              <span class="rec-dl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> PDF</span>
-            </div>
-          </a>
-
-          <a class="rec-card reveal" href="assets/references/copywriting.pdf" target="_blank" rel="noopener">
-            <div class="rec-doc"><img src="assets/references/copywriting.jpg" alt="Copywriter reference letter" loading="lazy" /></div>
-            <div class="rec-foot">
-              <span class="rec-meta"><span class="rec-name">Copywriting lead</span><span class="rec-role">Reference letter</span></span>
-              <span class="rec-dl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> PDF</span>
-            </div>
-          </a>
+          <!-- Copywriting lead -->
+          <figure class="rec-card reveal">
+            <div class="rec-quote-mark" aria-hidden="true">&ldquo;</div>
+            <blockquote class="rec-quote">
+              <!-- PLACEHOLDER: replace with a real excerpt from the copywriting lead's letter -->
+              One of those rare people who pairs analytical thinking with genuine craft —
+              her copy is clear, considered and always on brief.
+            </blockquote>
+            <figcaption class="rec-author">
+              <span class="rec-avatar" aria-hidden="true">C</span>
+              <span class="rec-meta">
+                <span class="rec-name">Reference letter</span>
+                <span class="rec-role">Copywriting lead</span>
+              </span>
+            </figcaption>
+            <a class="rec-download" href="assets/references/copywriting.jpg" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download letter
+            </a>
+          </figure>
         </div>
       </div>
     </section>
